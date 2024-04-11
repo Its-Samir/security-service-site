@@ -1,6 +1,6 @@
 export default function Navbar() {
 	return (
-		<nav className="flex items-center justify-between py-1">
+		<nav className="flex items-center justify-between py-1 stikcy top-0">
 			<h1 className="text-2xl text-neutral-500">Logo</h1>
 			<ul className="hidden md:flex items-center gap-4">
 				<li className="hover:underline py-1 px-3 rounded-full text-slate-500">

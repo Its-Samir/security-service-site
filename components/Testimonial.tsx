@@ -22,43 +22,43 @@ export default function Testimonial() {
 					}),
 				]}
 			>
-				<CarouselContent>
+				<CarouselContent className="w-auto md:w-1/2">
 					<CarouselItem>
 						<Card>
-							<CardContent className="p-4">
-								<CardDescription>
+							<CardContent className="p-4 flex flex-col gap-4">
+								<p className="text-slate-600 text-sm sm:text-xl">
 									Lorem ipsum dolor sit amet consectetur adipisicing
 									elit. Eligendi, rem?
-								</CardDescription>
-								<CardFooter className="p-0">- Username1</CardFooter>
+								</p>
+								<span className="text-neutral-800 font-sans font-bold">- Username1</span>
 							</CardContent>
 						</Card>
 					</CarouselItem>
 					<CarouselItem>
 						<Card>
-							<CardContent className="p-4">
-								<CardDescription>
+							<CardContent className="p-4 flex flex-col gap-4">
+								<p className="text-slate-600 text-sm sm:text-xl">
 									Lorem ipsum dolor sit amet consectetur adipisicing
 									elit. Eligendi, rem?
-								</CardDescription>
-								<CardFooter className="p-0">- Username2</CardFooter>
+								</p>
+								<span className="text-neutral-800 font-sans font-bold">- Username2</span>
 							</CardContent>
 						</Card>
 					</CarouselItem>
 					<CarouselItem>
 						<Card>
-							<CardContent className="p-4">
-								<CardDescription>
+							<CardContent className="p-4 flex flex-col gap-4">
+								<p className="text-slate-600 text-sm sm:text-xl">
 									Lorem ipsum dolor sit amet consectetur adipisicing
 									elit. Eligendi, rem?
-								</CardDescription>
-								<CardFooter className="p-0">- Username3</CardFooter>
+								</p>
+								<span className="text-neutral-800 font-sans font-bold">- Username3</span>
 							</CardContent>
 						</Card>
 					</CarouselItem>
 				</CarouselContent>
-            <CarouselPrevious className="top-[125%] left-0" />
-            <CarouselNext className="top-[125%] left-8" />
+            <CarouselPrevious className="top-[115%] left-0" />
+            <CarouselNext className="top-[115%] left-8" />
 			</Carousel>
 		</section>
 	);

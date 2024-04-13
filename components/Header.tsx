@@ -15,9 +15,6 @@ export default function Header() {
 			</p>
 			<div className="flex items-center gap-3">
 				<Button>Services</Button>
-				{/* <Button className="bg-transparent border border-blue-600 text-blue-600 shadow-none">
-					Get in Touch
-				</Button> */}
 				<div className="flex items-center gap-4">
 					<FaFacebookSquare size={24} />
 					<FaSquareXTwitter size={24} />

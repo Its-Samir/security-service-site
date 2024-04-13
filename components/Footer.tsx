@@ -4,7 +4,7 @@ import { RiMailFill } from "react-icons/ri";
 
 export default function Footer() {
 	return (
-		<footer className="flex-col sm:flex-row sm:flex justify-between space-y-4 sm:items-center bg-slate-800 text-slate-400 p-4 hover:text-white rounded-md">
+		<footer className="flex-col sm:flex-row sm:flex justify-between sm:space-y-0 space-y-4 sm:items-center bg-slate-800 text-slate-400 p-4 hover:text-white rounded-md">
 			<div className="flex flex-col gap-3">
 				<h1 className="text-xl md:text-2xl font-sans font-bold">Logo</h1>
 				<hr className="border-slate-400" />
@@ -14,7 +14,7 @@ export default function Footer() {
 					<FaLinkedin />
 				</div>
 			</div>
-			<ul className="flex flex-col gap-3">
+			<ul className="flex flex-col gap-3 mt-0">
 				<li>
 					<a href="#">Home</a>
 				</li>

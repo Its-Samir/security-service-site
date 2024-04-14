@@ -76,7 +76,7 @@ export default function Achievements() {
 					/>
 				</div>
 			</div>
-			<div className="w-[25rem] border">
+			<div className="w-auto md:w-[25rem] border">
 				<Image
 					src={currentImg}
 					alt="img"

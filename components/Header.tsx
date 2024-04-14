@@ -4,11 +4,19 @@ import { FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 
 export default function Header() {
 	return (
-		<section className="flex flex-col items-center justify-center space-y-2 p-4 bg-gradient-to-r from-slate-100 to-transparent">
-			<h1 className="text-3xl md:text-5xl text-neutral-800 font-sans font-bold text-center">
+		<section
+			style={{
+				background:
+					"linear-gradient(45deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/image3.jpg') ",
+				backgroundPosition: "top",
+				backgroundSize: "100% 200%",
+			}}
+			className="flex flex-col text-white items-center justify-center space-y-2 p-4 bg-gradient-to-r from-slate-100 to-transparent py-[4rem]"
+		>
+			<h1 className="text-3xl md:text-5xl font-sans font-bold text-center">
 				Some Heading Text
 			</h1>
-			<p className="text-slate-600 text-center md:w-2/3 w-full md:text-base text-sm">
+			<p className="text-center md:w-2/3 w-full md:text-base text-sm">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
 				nihil dicta repellat accusantium quam voluptates et quia recusandae
 				voluptatum facere.

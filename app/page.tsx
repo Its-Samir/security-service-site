@@ -17,7 +17,7 @@ export default function Home() {
 			<CallToAction />
 			<Footer />
 			<div className="pb-2 text-center text-sm">
-				<span>Copyright 2024</span>
+				<span>&#169; Copyright Logo</span>
 			</div>
 		</main>
 	);
